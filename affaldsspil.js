@@ -1,7 +1,7 @@
 //Kopi af DragandDrop3
-var n = 0;
-var svar=[0,0,1,1];
-var billeder=["karton.png","pap.png","plastikpose.png","plast_bakke.png"];
+var n = 4;
+var svar=[2,0,1,1,3,1];
+var billeder=["tlf.png","pap.png","plastikpose.png","plast_bakke.png","skrog.png","plast_emb.png"];
 var score = 0;
 
 function allowDrop(ev)  // Gør det muligt at slippe et billede på kassen
@@ -40,10 +40,10 @@ else{
 function nextImage()
 { // fjern forrige billede, hvis det findes og indsæt nyt
   var oldImage = document.getElementById("boxed");
-  if (typeof oldImage !== "undefined" && oldImage !== null) // test om boxed-billede var der
-  { oldImage.remove();
-    // Returns a random integer from 0 to 3:
-    n = Math.floor(Math.random() * 4);
+   // test om boxed-billede var der
+   oldImage.remove();
+    // Returns a random integer from 0 to 5:
+    n = Math.floor(Math.random() * 6);
     // indsæt nyt billede
     var newImage = document.createElement("IMG");
     newImage.setAttribute("src", "billeder/"+billeder[n]);
@@ -52,7 +52,7 @@ function nextImage()
     newImage.setAttribute("height", "100%");
     newImage.setAttribute("draggable", "true");
     newImage.setAttribute("ondragstart", "drag(event)");
-    document.getElementById('div_slut').appendChild(newImage);}
+    document.getElementById('div_slut').appendChild(newImage);
 
 
 }

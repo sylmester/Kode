@@ -5,23 +5,27 @@ h1 {
 
 }
 img{
-  width:15vw; height:15vw;
+  width:18vw; height:18vw;
 }
 .leftBox{
   float:left;
-  width:15vw; height:15vw;
+  width:18vw; height:18vw;
+  margin-left: 90px;
 }
 .rightBox{
   float:right;
-  width:25vw; height:25vw;
+  width:18vw; height:18vw;
+  margin-right: 90px;
 }
 .leftDownBox{
   float:left;
-  width:15vw; height:15vw;
+  width:18vw; height:18vw;
+  margin-left: 90px;
 }
 .rightDownBox{
   float:right;
-  width:25vw; height:25vw;
+  width:18vw; height:18vw;
+  margin-right: 90px;
 }
 #svarRigtig {
   font-size: 50px;
@@ -38,13 +42,13 @@ img{
 
 
 
-#div1{width:15vw; height:15vw; margin:0; padding:0vw;border:5px solid #aaaaaa;}
+#div1{width:18vw; height:18vw; margin:0; padding:0vw;border:5px solid #aaaaaa;}
 
-#div2{width:15vw; height:15vw; margin:0; padding:0vw;border:5px solid #aaaaaa;}
+#div2{width:18vw; height:18vw; margin:0; padding:0vw;border:5px solid #aaaaaa;}
 
-#div3{width:15vw; height:15vw; margin:0; padding:0vw;border:5px solid #aaaaaa;}
+#div3{width:18vw; height:18vw; margin:0; padding:0vw;border:5px solid #aaaaaa;}
 
-#div4{width:15vw; height:15vw; margin:0; padding:0vw;border:5px solid #aaaaaa;}
+#div4{width:18vw; height:18vw; margin:0; padding:0vw;border:5px solid #aaaaaa;}
 
 
 #div_slut{width:18vw;margin:auto;

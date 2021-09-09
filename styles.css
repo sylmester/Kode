@@ -1,0 +1,48 @@
+h1 {
+  font-size: 80px;
+  text-align: center;
+  margin: 0px;
+
+}
+img{
+  width:15vw; height:15vw;
+}
+.leftBox{
+  float:left;
+  width:15vw; height:15vw;
+}
+.rightBox{
+  float:right;
+  width:25vw; height:25vw;
+}
+.leftDownBox{
+  float:left;
+  width:15vw; height:15vw;
+}
+.rightDownBox{
+  float:right;
+  width:25vw; height:25vw;
+}
+#svarRigtig {
+  font-size: 50px;
+  text-align: center;
+  color: green;
+}
+#svarForkert {
+  font-size: 50px;
+  text-align: center;
+  color: red;
+}
+
+#score{font-size: 50px; text-align: center; margin: 5px;}
+
+
+
+#div1{width:15vw; height:15vw; margin:0; padding:0vw;border:5px solid #aaaaaa;}
+
+#div2{width:15vw; height:15vw; margin:0; padding:0vw;border:5px solid #aaaaaa;}
+
+
+#div_slut{width:18vw;margin:auto;
+}
+#drag1 {margin: auto;}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="affaldsspil.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Affaldsspil</title>
+  </head>
+  <body>
+
+    <div>
+    <h1>Sorter affaldet</h1>
+    <p id="score">Score:</p>
+
+    <p id="liv">Liv: 3</p>
+
+
+    </div>
+
+      <div id="div1" class="leftBox"><img src="billeder/papSpand.png" alt="pap" draggable="false" ondrop="drop(event,0)" ondragover="allowDrop(event)"> </div>
+
+
+
+        <div id="div2" class="rightBox"><img ondrop="drop(event,1)" ondragover="allowDrop(event)" src="billeder/plastSpand.png" alt="plast" draggable="false"></div>
+
+      <br><br>
+
+
+      <div id="skrald">
+        <img id='drag1' src="billeder/skrog.png" draggable="true" ondragstart="drag(event)" width="100%" height="100%">
+
+      </div>
+
+
+
+        <div id="div3" class="leftBox"><img ondrop="drop(event,2)" ondragover="allowDrop(event)" src="billeder/ESpand.png" alt="pap" draggable="false"> </div>
+
+
+
+
+          <div id="div4" class="rightBox"><img ondrop="drop(event,3)" ondragover="allowDrop(event)" src="billeder/madSpand.png" alt="plast" draggable="false"></div>
+
+
+
+    <br class="float_stop">
+
+    <p id="svarRigtig"></p>
+    <p id="svarForkert"></p>
+
+
+
+
+  </body>
+</html>

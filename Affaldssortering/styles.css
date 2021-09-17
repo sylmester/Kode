@@ -1,0 +1,53 @@
+#liv {
+  text-align: center;
+  font-size: 40px;
+  margin: auto;
+}
+
+#livbillede {
+  width: 1vw;
+}
+h1 {
+  font-size: 80px;
+  text-align: center;
+  margin: 0px;
+
+}
+img{
+  width:21vw; height:21vw;
+}
+.leftBox{
+  float:left;
+  width:21vw; height:21vw;
+  margin-left: 5vw;
+  border:5px solid #aaaaaa;
+  margin-top: -120px;
+}
+.rightBox{
+  float:right;
+  width:21vw; height:21vw;
+  margin-right: 5vw;
+  border:5px solid #aaaaaa;
+  margin-top: -120px;
+}
+
+
+
+#svarRigtig {
+  font-size: 50px;
+  text-align: center;
+  color: green;
+}
+#svarForkert {
+  font-size: 50px;
+  text-align: center;
+  color: red;
+}
+
+#score{font-size: 50px; text-align: center; margin: 5px;}
+
+
+#drag1 {display: block; margin: auto; width: 13vw height: 13vw; margin-top: 50px}
+
+#div3 {margin-top: -180px}
+#div4 {margin-top: -180px}
